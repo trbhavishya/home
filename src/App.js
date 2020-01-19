@@ -1,18 +1,13 @@
 import React from 'react';
 import './App.css';
+import Home from './components/Home';
 
 function App() {
   return (
+    // eslint-disable-next-line react/jsx-filename-extension
     <div className="App">
       <header className="App-header">
-        <a
-          className="App-link"
-          href="https://github.com/gnanadeep"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          I am Gnanadeep
-        </a>
+        <Home />
       </header>
     </div>
   );
