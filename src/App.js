@@ -1,6 +1,5 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import './App.css';
 import Home from './components/Home';
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Gnanadeep</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link rel="canonical" href="https://gnanadeep.github.io/home/" />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Gnanadeep Portfolio Website</title>
