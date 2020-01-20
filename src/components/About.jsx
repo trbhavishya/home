@@ -1,29 +1,26 @@
 import React from 'react';
-import styles from '../css/main.scss';
+import styles from '../css/main.module.scss';
 
 const About = () => (
   <React.Fragment>
     <section className={styles['about-me']} id="about">
-      <h2 className={styles['section__title section__title--about']}>Who I am</h2>
-      <p className={styles['section__subtitle section__subtitle--about']}>
-Designer & developer based out of
-        NYC
+      <h2 className={`${styles.section__title} ${styles['section__title--about']}`}>Who I am</h2>
+      <p className={`${styles.section__subtitle} ${styles['section__subtitle--about']}`}>
+        Developer with expertise on Javascript
       </p>
-
       <div className={styles['about-me__body']}>
         <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          More than 3 years of experience as a Full Stack Web Developer, with expertise on client
+          side using JavaScript frameworks such as React.js, Angular and on server side with Node.js
+          and Vert.x Java
         </p>
         <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Experienced Full Stack Engineer with a demonstrated history of working in the financial
+          services industry. Skilled in JavaScript and Java with strong expertise on framework like
+          React js, Node js, Angular, Vert.x.
         </p>
       </div>
-
-      <img src="img/dev-jane-02.jpg" alt="" className={styles['about-me__img']} />
+      <img alt="" className={styles['about-me__img']} />
     </section>
   </React.Fragment>
 );
