@@ -3,9 +3,7 @@ import styles from '../css/main.module.scss';
 
 const Header = () => (
   <React.Fragment>
-    <div className={styles.logo}>
-      <img src="img/devjane.png" alt="" />
-    </div>
+    <div className={styles.logo} />
     <button className={styles['nav-toggle']} type="button" aria-label="toggle navigation">
       <span className={styles.hamburger} />
     </button>

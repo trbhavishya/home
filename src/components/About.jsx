@@ -10,14 +10,10 @@ const About = () => (
       </p>
       <div className={styles['about-me__body']}>
         <p>
-          More than 3 years of experience as a Full Stack Web Developer, with expertise on client
-          side using JavaScript frameworks such as React.js, Angular and on server side with Node.js
-          and Vert.x Java
+          More than 3 years of experience as a Full Stack Web Developer, with expertise on client side using JavaScript frameworks such as React.js, Angular and on server side with Node.js and Vert.x Java
         </p>
         <p>
-          Experienced Full Stack Engineer with a demonstrated history of working in the financial
-          services industry. Skilled in JavaScript and Java with strong expertise on framework like
-          React js, Node js, Angular, Vert.x.
+          I am an Experienced Full Stack Engineer with a demonstrated history of working in the financial services industry. Skilled in JavaScript and Java with strong expertise on framework like React js, Node js, Angular, Vert.x.
         </p>
       </div>
       <img alt="" className={styles['about-me__img']} />

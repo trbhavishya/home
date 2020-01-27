@@ -29,7 +29,7 @@ const MyServices = () => (
           </p>
         </div>
       </div>
-      <a href="#work" className={styles.btn}>My Work</a>
+      {/* <a href="#work" className={styles.btn}>My Work</a> */}
     </section>
   </React.Fragment>
 );
