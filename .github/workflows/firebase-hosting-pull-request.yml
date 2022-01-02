@@ -10,6 +10,7 @@ jobs:
     environment: production
     steps:
       - uses: actions/checkout@v2
+      - name: set env varaible  
         env: # Or as an environment variable
           REACT_APP_PUBLIC_APP_ID: ${{ secrets.REACT_APP_PUBLIC_APP_ID }}
           REACT_APP_PUBLIC_FIREBASE_API_KEY: ${{ secrets.REACT_APP_PUBLIC_FIREBASE_API_KEY }}
@@ -18,6 +19,8 @@ jobs:
           REACT_APP_PUBLIC_MEASUREMENT_ID: ${{ secrets.REACT_APP_PUBLIC_MEASUREMENT_ID }}
           REACT_APP_PUBLIC_MESSAGING_SENDER_ID: ${{ secrets.REACT_APP_PUBLIC_MESSAGING_SENDER_ID }}
           REACT_APP_PUBLIC_STORAGE_BUCKET: ${{ secrets.REACT_APP_PUBLIC_STORAGE_BUCKET }}
+        run: |
+          echo KEY: '${REACT_APP_PUBLIC_FIREBASE_PROJECT_ID}'
       - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
