@@ -7,7 +7,7 @@ jobs:
   build_and_preview:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
     runs-on: ubuntu-latest
-    environment: production
+    environment: Prod
     steps:
       - uses: actions/checkout@v2
       - name: set env varaible  
