@@ -14,4 +14,5 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_MYSITE_35B18 }}'
+          expires: 1d
           projectId: mysite-35b18
