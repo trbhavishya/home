@@ -9,7 +9,7 @@ import firebaseConfig from './firebaseConfig';
 
 function App() {
   const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+  getAnalytics(app);
 
   ReactGA.initialize('UA-000000-01');
   ReactGA.pageview(window.location.pathname + window.location.search);
