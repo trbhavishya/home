@@ -2,13 +2,21 @@ import React from 'react';
 import ReactGA from 'react-ga';
 import Helmet from 'react-helmet';
 import Home from './components/Home';
+import ReactGA from 'react-ga';
+
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+import firebaseConfig from './firebaseConfig';
 
 function App() {
-  // ReactGA.initialize('UA-xxxx-1');
-  // ReactGA.pageview(window.location.pathname + window.location.search);
-  // ReactGA.ga('send', 'pageview', '/');
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+
+  ReactGA.initialize('UA-000000-01');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+  ReactGA.ga('send', 'pageview', '/');
+
   return (
-    // eslint-disable-next-line react/jsx-filename-extension
     <div className="App">
       <Helmet>
         <meta charSet="utf-8" />
