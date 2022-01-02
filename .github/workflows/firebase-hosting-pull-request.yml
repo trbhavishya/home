@@ -10,7 +10,7 @@ jobs:
     environment: Prod
     steps:
       - uses: actions/checkout@v2
-      - name: set env varaible  
+      - name: Create build 
         env: # Or as an environment variable
           REACT_APP_PUBLIC_APP_ID: ${{ secrets.REACT_APP_PUBLIC_APP_ID }}
           REACT_APP_PUBLIC_FIREBASE_API_KEY: ${{ secrets.REACT_APP_PUBLIC_FIREBASE_API_KEY }}
