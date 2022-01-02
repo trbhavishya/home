@@ -26,3 +26,17 @@ yarn-error.log*
 
 
 /.idea/
+/.firebase/
+/.build/
+/.yarn/
+
+.yarn/*
+.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+# .pnp.*
+
+.env*

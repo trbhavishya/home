@@ -1,15 +1,14 @@
 import React from 'react';
 import ReactGA from 'react-ga';
-import styles from '../css/main.module.scss';
 
 const Footer = () => (
   <React.Fragment>
-    <footer className={styles.footer}>
+    <footer className={'footer'}>
       <a
         rel="noopener noreferrer"
         target="_blank"
         href="mailto:gnanadeep4@gmail.com"
-        className={styles.footer__link}
+        className={'footer__link'}
         onClick={() => ReactGA.event({
           category: 'email',
           action: 'User pressed email link',
@@ -17,12 +16,12 @@ const Footer = () => (
       >
 gnanadeep4@gmail.com
       </a>
-      <ul className={styles['social-list']}>
-        <li className={styles['social-list__item']}>
+      <ul className='social-list'>
+        <li className='social-list__item'>
           <a
             rel="noopener noreferrer"
             target="_blank"
-            className={styles['social-list__link']}
+            className='social-list__link'
             href="https://www.linkedin.com/in/gnanadeep/"
             onClick={() => ReactGA.event({
               category: 'linkedin',
@@ -32,11 +31,11 @@ gnanadeep4@gmail.com
             <i className="fab fa-linkedin" />
           </a>
         </li>
-        <li className={styles['social-list__item']}>
+        <li className={'social-list__item'}>
           <a
             rel="noopener noreferrer"
             target="_blank"
-            className={styles['social-list__link']}
+            className='social-list__link'
             href="https://github.com/gnanadeep"
             onClick={() => ReactGA.event({
               category: 'github',

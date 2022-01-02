@@ -1,23 +1,22 @@
 import React from 'react';
-import styles from '../css/main.module.scss';
 
 const Header = () => (
   <React.Fragment>
-    <div className={styles.logo} />
-    <button className={styles['nav-toggle']} type="button" aria-label="toggle navigation">
-      <span className={styles.hamburger} />
+    <div className={'logo'} />
+    <button className='nav-toggle' type="button" aria-label="toggle navigation">
+      <span className='hamburger' />
     </button>
-    <nav className={styles.nav}>
-      <ul className={styles.nav__list}>
-        <li className={styles.nav__item}><a href="/index" className={styles.nav__link}>Home</a></li>
-        <li className={styles.nav__item}>
-          <a href="/services" className={styles.nav__link}>
+    <nav className='nav'>
+      <ul className={'nav__list'}>
+        <li className={'nav__item'}><a href="/index" className={styles.nav__link}>Home</a></li>
+        <li className={'nav__item'}>
+          <a href="/services" className={'nav__link'}>
 My
           Services
           </a>
         </li>
-        <li className={styles.nav__item}><a href="/about" className={styles.nav__link}>About me</a></li>
-        <li className={styles.nav__item}><a href="/work" className={styles.nav__link}>My Work</a></li>
+        <li className={'nav__item'}><a href="/about" className={'nav__link'}>About me</a></li>
+        <li className={'nav__item'}><a href="/work" className={'nav__link'}>My Work</a></li>
       </ul>
     </nav>
   </React.Fragment>
