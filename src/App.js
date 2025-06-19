@@ -19,11 +19,11 @@ function App() {
     <div className="App">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Gnanadeep</title>
-        <link rel="canonical" href="https://gnanadeep.github.io/home/" />
+        <title>Bhavishya</title>
+        <link rel="canonical" href="https://trbhavishya.github.io/home/" />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Gnanadeep Portfolio Website</title>
+        <title>Bhavishya Portfolio Website</title>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"

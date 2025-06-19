@@ -1,6 +1,5 @@
 import React from 'react';
 // import styles from '../css/main.module.scss';
-import gnana from './img/Gnana.jpg';
 
 const Introduction = () => (
   <React.Fragment>
@@ -9,10 +8,10 @@ const Introduction = () => (
         Hi, I am
         <hr />
         {' '}
-        <strong>Gnanadeep</strong>
+        <strong>Bhavishya</strong>
       </h1>
       <p className='section__subtitle section__subtitle--intro'>Javascript dev</p>
-      <img src={gnana} alt="" className={'intro__img'} />
+      <img src={bhavishya} alt="" className={'intro__img'} />
     </section>
   </React.Fragment>
 );

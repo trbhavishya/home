@@ -7,14 +7,14 @@ const Footer = () => (
       <a
         rel="noopener noreferrer"
         target="_blank"
-        href="mailto:gnanadeep4@gmail.com"
+        href="mailto:trbhavishya@gmail.com"
         className={'footer__link'}
         onClick={() => ReactGA.event({
           category: 'email',
           action: 'User pressed email link',
         })}
       >
-gnanadeep4@gmail.com
+trbhavishya@gmail.com
       </a>
       <ul className='social-list'>
         <li className='social-list__item'>
@@ -22,7 +22,7 @@ gnanadeep4@gmail.com
             rel="noopener noreferrer"
             target="_blank"
             className='social-list__link'
-            href="https://www.linkedin.com/in/gnanadeep/"
+            href="https://www.linkedin.com/in/trbhavishya/"
             onClick={() => ReactGA.event({
               category: 'linkedin',
               action: 'User pressed linkedin link',
@@ -36,7 +36,7 @@ gnanadeep4@gmail.com
             rel="noopener noreferrer"
             target="_blank"
             className='social-list__link'
-            href="https://github.com/gnanadeep"
+            href="https://github.com/trbhavishya"
             onClick={() => ReactGA.event({
               category: 'github',
               action: 'User pressed Github link',
